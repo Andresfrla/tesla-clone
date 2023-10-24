@@ -86,9 +86,7 @@ import Logo from "./Logo.astro"
       if (isIntersecting) {
         const color = entry.target.getAttribute("data-header-color")
         headerEl.style.color = color
-      } else {
-      headerEl.style.color = 'white';
-    }
+      }
     })
   }, observerOptions)
 
